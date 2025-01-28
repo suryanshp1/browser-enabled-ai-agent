@@ -1,5 +1,5 @@
 # browser-enabled-ai-agent
-A simple demo of browser use based agent using langchain groq .
+A simple demo of browser based agent using langchain gemini and gradio.
 
 
 ### How to run code
@@ -19,7 +19,7 @@ conda activate venv
 - Install required packages
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt -i https://pypi.python.org/simple
 ```
 
 - Install playwright
@@ -32,3 +32,6 @@ playwright install
 ```bash
 python app.py
 ```
+
+
+Gradio playground for experiment : https://www.gradio.app/playground
