@@ -13,7 +13,7 @@ conda create -p venv python==3.11 -y
 - Activate the env
 
 ```bash
-conda activate venv
+conda activate ./venv
 ```
 
 - Install required packages
